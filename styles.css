@@ -1,0 +1,95 @@
+body {
+  /* rules go here */
+  margin: 0;
+  font-family: 'arial', helvetica;
+  font-weight: bold
+
+}
+
+ul {
+	list-style: none;
+		padding: 5px;
+		margin: 0px;
+
+}
+
+li {
+	display:inline;
+	margin: 0px 10px 10px 0;
+	text-decoration: none;
+}
+
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color:white;
+
+}
+
+#top {
+	background: #2d2d2d;
+	height:29px;
+	font-size: 13px;
+
+}
+
+#center {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+#box {
+	border: 1px #ccc solid;
+	border-top: 1px #aaa solid;
+	margin: 10px 0 10px 0;
+	width:500px;
+	height: 20px
+
+}
+
+#box:focus {
+  border-color: blue;
+}
+
+#box:hover {
+border: 1px solid grey;
+
+}
+
+#menu {
+ display: none;
+
+}
+
+button {
+	font-size: 11px; 
+	text-decoration: bold; 
+background: transparent;
+color: #444;
+border: 1px #ccc solid;
+border-radius: 2px;
+}
+
+button:hover {
+border-color: #aaa;
+}
+
+
+#bottom {
+
+	font-weight: normal;
+	float: right;
+	margin-top: 540px ;
+	font-size: 12px;
+}
+
+#bottom:hover {
+text-decoration: underline;
+
+
+}

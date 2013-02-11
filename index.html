@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <div id="top">
+  	<ul>
+  		<li> <a href='#you'> You+ </a>
+  		<li> <a href='#search'>Search </a>
+  		<li> <a href='#Images'>Images</a>
+  		<li> <a href='#Maps'>Maps</a>
+  		<li> <a href='#Youtube '>Youtube </a>
+  		<li> <a href='#News'>News</a>
+ 		<li> <a href='#Gmail'>Gmail</a>
+ 		<li> <a href='#Drive'>Drive</a>
+		<li> <a href='#Calendar '>Calendar </a>
+		<li> <a href='#more '>more </a>
+	</ul>
+  </div>
+
+  <div id='center'>
+	<img class='middle' src="http://www.google.com/images/srpr/logo3w.png"/>
+	<p><input class='middle' type="text" id="box"/></p>
+	<div class='middle'>
+	<button>Google Search</button>
+	<button>I'm Feeling Lucky</button>
+	</div>
+  </div>
+
+  <div id="bottom">
+<ul>
+<li><a href='#Advertising'> Advertising Programs </a>
+  		<li> <a href='#Biz'>Business Solutions </a>
+  		<li> <a href='#priv'>Privacy &amp Terms</a>
+  		<li> <a href='#plus'>+ Google </a>
+  		<li> <a href='#priv'>About Google</a>
+  		</ul>
+  		</div>
+  <div id='menu'>
+
+ 		<li> <a href='#Drive'>Drive</a>
+		<li> <a href='#Calendar '>Calendar </a>
+		<li> <a href='#more '>more </a>
+  </div>
+  <script> 
+document.querySelector('[href=#more]').addEventListener('click', function (e) {
+	console.log(12312)
+	document.getElementById('#menu').style.display = 'block';
+
+//document.querySelector('#bottom').style.top = Window.innerHeight  * .9
+
+})
+
+
+  </script>
+</body>
+</html>
